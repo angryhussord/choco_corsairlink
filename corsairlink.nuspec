@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>corsairlink</id>
+    <title>Corsair Link</title>
+    <version>4.6.0.86</version>
+    <authors>Corsair</authors>
+    <owners>angryhussord</owners>
+    <summary>Corsair Link allows you to monitor your system and control case fans.</summary>
+    <description>
+Corsair Link Dashboard software allows you to monitor your system and gives remarkable control over your case fans, lighting, and compatible Corsair power supplies and Hydro Series liquid CPU coolers that work together for optimal cooling and performance.
+
+It gives you an instant summary of how your system is performing, and you can monitor the temperature of your components and program Corsair Link to automatically adjust cooling to meet your demands without even opening your case.
+</description>
+    <projectUrl>http://www.corsair.com/en-us/landing/corsair-link-dashboard</projectUrl>
+    <packageSourceUrl>https://github.com/angryhussord/choco_corsairlink</packageSourceUrl>
+    <mailingListUrl>http://www.corsair.com/en-us/company/contact</mailingListUrl>
+    <tags>admin hardware monitoring lighting driver corsair link watercooling</tags>
+    <copyright>©2017</copyright>
+    <licenseUrl>http://www.corsair.com/en-us/downloads</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/angryhussord/choco_corsaircue/5bcb0c2b7baa67dca60ca15db065434ce6b40f24/corsair_icon.PNG</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>http://forum.corsair.com/v3/showthread.php?t=166611</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
